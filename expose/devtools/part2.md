@@ -9,3 +9,26 @@
 9. The function returns the error "ReferenceError: i is not defined", since i is declared using let instead of var, it is undefined beyond the scope of the for loop.
 10. Line 12 returns a the value 3, as that is the length of the price array.
 11. The function returns the same array [50, 100, 150].
+12. A. student.name
+    B. student["Grad Year"]
+    C. student.greeting();
+    D. student['Favorite Teacher'].name
+    E. student.courseLoad[0]
+13. A. 32
+    B. 1
+    C. 3
+    D. 3null
+    E. 4
+    F. 0
+    G. 3undefined
+    H. NaN
+14. A. true
+    B. false
+    C. true
+    D. false
+    E. false
+    F. true
+15. The == operator operates under the usual javascript rules where every variable can be converted, so '2' == 2. Whilst, the === operator is a strict comparison like in Java and C, so if the type you are comparing is '2' === 2, it will be false because they are different types.
+16. The function output: 21 45 5 2.
+17. The function will return the array [2,4,6], I walked through this function and looked at the fact that a new array was created using each of the old array values, but first passing them through the callback function which multiplies them by 2, so I know that it doubles the original array. I also built it and checked the return, which helps.
+19. The function output: 1 4 3 2.
